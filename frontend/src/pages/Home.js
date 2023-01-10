@@ -23,6 +23,7 @@ const Home = () => {
 
   return (
     <div className="home">
+      <h1>Hello</h1>
       <div className="workouts">
         {workouts && workouts.map(workout => (
           <WorkoutDetails workout={workout} key={workout._id} />
