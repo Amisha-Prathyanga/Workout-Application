@@ -7,12 +7,16 @@
   --error: #e7195a;
 }
 body {
-  background: #f1f1f1;
+  background: #c4e4ee53;
+  /* background-image: url("img/gym.jpg");
+  background-repeat: no-repeat;
+  background-size: contain; */
   margin: 0;
   font-family: "Poppins";
 }
 header {
-  background: #fff;
+  background: rgb(3, 29, 58);
+  
 }
 header .container {
   max-width: 1400px;
@@ -20,11 +24,14 @@ header .container {
   padding: 10px 20px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  
+  
 }
 header a {
-  color: #333;
+  color: rgba(251, 247, 247, 0.738);
   text-decoration: none;
+  
 }
 .pages{
   max-width: 1400px;
