@@ -7,7 +7,7 @@
   --error: #e7195a;
 }
 body {
-  background: #c4e4ee53;
+  background: #c4e4ee53; 
   /* background-image: url("img/gym.jpg");
   background-repeat: no-repeat;
   background-size: contain; */
@@ -75,8 +75,13 @@ header a {
 }
 
 /* new workout form */
-label, input {
+label {
   display: block;
+  color: #fff;
+}
+input {
+  display: block;
+  color: rgb(6, 6, 6);
 }
 input {
   padding: 10px;
